@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+img.iphone {
+    display: block;
+    margin: auto;
+    margin-top: 158px;
+    margin-bottom: 158px;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 475px;
+    width: 270px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+div.botoes {
+    position: absolute;
+    top: 30px;
+    left: 90vw;
+}
+
+div.botoes > a > img {
+    width: 50px;
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 100%;
+}
+
+div.botoes > img:hover {
+    
+}
